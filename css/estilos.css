@@ -46,12 +46,11 @@ header{
     position: absolute;
     padding: 12px 40px;
     background: #F47920;
-    width: 70%;   
+    width: 78%; 
+  
 }
  
-.menu >li{
-    float: left;
-}
+
 
 .menu li:hover > ul{
     display: block;
