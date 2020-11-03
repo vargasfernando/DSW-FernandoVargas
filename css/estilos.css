@@ -57,6 +57,7 @@ header{
     
 }
 
+
 .tabla{
     width: 95%;
     padding: 50px;
@@ -84,5 +85,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .tabla_img{
     width: 20%;
-    padding: 95px;   
+    padding: 65px;   
 } 
+
+
+.img{
+    padding: 5%;
+}
