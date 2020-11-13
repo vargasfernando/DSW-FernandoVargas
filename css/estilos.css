@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 200px;
 }
 body{
     background: #F0B429;
