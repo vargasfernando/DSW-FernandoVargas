@@ -1,12 +1,25 @@
 
-body{
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+body{
+    background: #F0B429;
+    color: white;
+}
+#contenedor{
+    margin: auto;
+}
 header{
     width: 100%;
-    background: #005883;
+    background: #B3B3B3;
+    text-align: center;
+}
+
+nav{
+    background:#005883;
+    height: 50px;
 }
 
 .menu ul {
@@ -21,7 +34,6 @@ header{
     position: relative;  
     text-align: center;
     flex-grow: 1;
-
 }
 .menu li:hover{
     background: #B3B3B3;
@@ -50,45 +62,29 @@ header{
   
 }
  
-
-
 .menu li:hover > ul{
-    display: block;
+    display: block;  
+}
+
+#contenido{
+    padding: 30px;
+    width: 65%;
     
+   
+    float: left;
+    background: #F0B429;
 }
 
-
-.tabla{
-    width: 95%;
-    padding: 50px;
-    text-align: justify;
-} 
-.conceptos{
-    width: 90%;
-    padding: 50px;
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.color_body{
-    background-color: ghostwhite;
+aside{
+    width: 30%;
+    background: #F0B429;
+    float: right;
 }
 
 footer{
-background-color: black;
-text-align: center;
-padding: 5px;
-height: 8%;
-color: white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.tabla_img{
-    width: 20%;
-    padding: 65px;   
-} 
-
-
-.img{
-    padding: 5%;
+    background: black;
+    clear: both;
+    padding: 20px;
+    height: 30%;
+    text-align: center;
 }
