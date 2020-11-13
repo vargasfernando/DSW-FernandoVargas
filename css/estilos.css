@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    min-width: 200px;
 }
 body{
     background: #F0B429;
@@ -68,8 +67,8 @@ nav{
 }
 
 #contenido{
-    padding: 30px;
-    width: 65%;
+    padding: 20px;
+    width: 70%;
     
    
     float: left;
@@ -77,7 +76,7 @@ nav{
 }
 
 aside{
-    width: 30%;
+    width: 25%;
     background: #F0B429;
     float: right;
 }
@@ -86,8 +85,7 @@ footer{
     background: black;
     clear: both;
     padding: 20px;
-    height: 30%;
+    height: 20%;
     text-align: center;
+
 }
-
-
