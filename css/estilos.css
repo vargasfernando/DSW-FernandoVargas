@@ -90,3 +90,9 @@ footer{
     text-align: center;
 
 }
+@media screen and (max-width: 987px)
+{
+aside{
+    width: 100%;
+}
+}
