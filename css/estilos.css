@@ -1,6 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header
+{
+max-width: 10000px;
+min-height: 10px;
+background-color:#B3B3B3;
+color: white;
+margin: 0 auto;
+}
+
+#menu
+{
+max-width: 10000px;
+min-height: 30px;
+background-color: #005883;
+color: white;
+
+
+}
+#menu ul {
+list-style: none;
+display: flex;
+justify-content:space-around;
+
+
+}
+ #menu a {
+     color: white;
+     display: block;
+     padding: 20px;
+     text-decoration: none;
+     background-color:#005883;
+     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     max-width: 10000px;    
+ }
+
+ #menu ul ul
+ {
+     display: none;
+     position: absolute;    
+ }
+
+ #menu a:hover
+ {
+    background-color: #B3B3B3; 
+ }
+
+ #menu ul li:hover ul
+ { 
+ display: block;
+ }
 
 
 
+
+#contenido
+{
+    max-width: 70%;
+    min-height: 250px;
+    background-color:#F47920;
+    color: white;
+   
+    box-sizing: border-box;
+}
+
+aside{
+    width: 30%;
+    background: #F47920;
+    float: right;
+}
+footer{
+    max-width: 10000px;
+    min-height: 90px;
+    margin: 0;
+    background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  clear: both;
+}
+
+
+/*
 *
 {
     margin: 0;
@@ -67,6 +154,22 @@ nav{
 .menu li:hover > ul{
     display: block;  
 }
+
+@media screen and (max-width: 640px)
+{
+ 
+aside{
+    width: 100%;
+    
+}
+
+}
+
+
+
+
+
+/*------------------------------------------------
 /*
 *{
     margin: 0px;
