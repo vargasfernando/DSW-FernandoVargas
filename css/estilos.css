@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -91,17 +92,16 @@ footer{
 }
 @media (max-width: 768px)
 {
- 
-.menu{
-    height: auto;
-    border-bottom: 0px;
-    display: block;
-}
-.menu a{
-    height: 45px;
-   
-}
-aside{
-    width: 100%;
-}
+    #contenido{
+        padding: 20px;
+        width: 50%;  
+        float: left;
+        background: #F0B429;
+    }
+
+    aside{
+        width: 45%;
+    }
+
+
 }
