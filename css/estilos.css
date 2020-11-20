@@ -89,12 +89,19 @@ footer{
     text-align: center;
 
 }
-@media screen and (max-width: 810px)
+@media (max-width: 768px)
 {
  
+.menu{
+    height: auto;
+    border-bottom: 0px;
+    display: block;
+}
+.menu a{
+    height: 45px;
+   
+}
 aside{
     width: 100%;
-    
 }
-
 }
